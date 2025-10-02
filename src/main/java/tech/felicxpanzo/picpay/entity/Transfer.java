@@ -35,11 +35,11 @@ public class Transfer {
         this.id = id;
     }
 
-    public Wallet getSenderr() {
+    public Wallet getSender() {
         return sender;
     }
 
-    public void setSenderr(Wallet senderr) {
+    public void setSender(Wallet senderr) {
         this.sender = senderr;
     }
 
