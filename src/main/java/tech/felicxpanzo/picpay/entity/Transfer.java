@@ -15,7 +15,7 @@ public class Transfer {
 
     @ManyToOne
     @JoinColumn(name = "wallet_sender_id")
-    private Wallet senderr;
+    private Wallet sender;
 
     @ManyToOne
     @JoinColumn(name = "wallet_receiver_id")
@@ -36,11 +36,11 @@ public class Transfer {
     }
 
     public Wallet getSenderr() {
-        return senderr;
+        return sender;
     }
 
     public void setSenderr(Wallet senderr) {
-        this.senderr = senderr;
+        this.sender = senderr;
     }
 
     public Wallet getReceiver() {
